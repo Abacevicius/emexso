@@ -34,10 +34,8 @@
    line-height: 1.5em;
    font-size: 1.2em;
   }
-
  }
- .container img {
-  // position: relative;
+ img {
   width: 50%;
   animation: floating 2s infinite alternate linear;
 
@@ -49,7 +47,7 @@
 
 
       @media (max-width:768px) {
-       #about .container {
+       #about .container{
         flex-direction: column;
         text-align: center;
          padding: 50px 0;
